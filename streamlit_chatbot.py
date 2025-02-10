@@ -51,8 +51,8 @@ pd.set_option("max_colwidth", None)
 class ChatDocumentAssistant:
     def __init__(self):
         self.NUM_CHUNKS = 3  # Default number of chunks
-        self.CORTEX_SEARCH_DATABASE = "CC_QUICKSTART_CORTEX_SEARCH_DOCS"
-        self.CORTEX_SEARCH_SCHEMA = "DATA"
+        self.CORTEX_SEARCH_DATABASE = "CC_QUICKSTART_CORTEX_SEARCH_DOCS_TRU"
+        self.CORTEX_SEARCH_SCHEMA = "PUBLIC"
         self.CORTEX_SEARCH_SERVICE = "CC_SEARCH_SERVICE_CS"
         self.COLUMNS = ["chunk", "relative_path", "category"]
         
