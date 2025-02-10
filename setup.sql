@@ -138,7 +138,7 @@ COMMENT = '{"origin": "sf_chatbot",
 COPY FILES 
     INTO @STREAMLIT_STAGE
     FROM @CC_QUICKSTART_CORTEX_SEARCH_DOCS_TRU.PUBLIC.git_repo_chatbot/branches/main/
-    FILES =('streamlit_chatbot.py');
+    FILES =('streamlit_chatbot.py', 'environment.yml');
 
 ALTER STAGE STREAMLIT_STAGE REFRESH;
 
