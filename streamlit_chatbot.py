@@ -16,6 +16,7 @@ from trulens.apps.custom import TruCustomApp
 
 #Get Snowflake session
 snowpark_session = get_active_session()
+snowpark_session.use_warehouse('COMPUTE_WH')
 #Create database connection
 tru_snowflake_connector = SnowflakeConnector(snowpark_session=snowpark_session)
 tru_session = TruSession(connector=tru_snowflake_connector)
