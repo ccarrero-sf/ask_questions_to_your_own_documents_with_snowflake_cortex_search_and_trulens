@@ -20,7 +20,7 @@ This new version includes:
         - Create a GIT reposotiry with this one
         - Will fetch the data
 
-Afte running that setup, you should be able to see the git repo. Open it:
+After running that setup, you should be able to see the git repo. Open it:
 
 ![image](img/1_git_repo.png)
 
