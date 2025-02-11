@@ -1,5 +1,3 @@
-SET (streamlit_warehouse)=(SELECT CURRENT_WAREHOUSE());
-
 CREATE or replace DATABASE CC_QUICKSTART_CORTEX_SEARCH_DOCS_TRU;
 
 CREATE OR REPLACE API INTEGRATION git_api_integration_chatbot
