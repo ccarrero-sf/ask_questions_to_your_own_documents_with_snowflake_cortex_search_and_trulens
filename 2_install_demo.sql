@@ -131,7 +131,7 @@ CREATE OR REPLACE STREAMLIT STREAMLIT_CHATBOT
     ROOT_LOCATION = '@STREAMLIT_STAGE'
     MAIN_FILE = 'streamlit_chatbot.py'
     TITLE = 'DOCUMENT CHATBOT'
-    QUERY_WAREHOUSE = $streamlit_warehouse
+    QUERY_WAREHOUSE = 'COMPUTE_WH'
     COMMENT = '{"origin": "sf_chatbot",
             "name": "chatbot",
             "version": {"major": 1, "minor": 0},
