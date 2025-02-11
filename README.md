@@ -12,15 +12,15 @@ This new version includes:
 
 Follow these steps: 
 
-    - Click on Projects -> Worksheets
-    - At the top rigth, click on + to add a new worksheet
-    - Copy/paste the code from [1_setup_git_repol.sql](https://github.com/ccarrero-sf/ask_questions_to_your_own_documents_with_snowflake_cortex_search_and_trulens/blob/main/1_setup_git_repo.sql)
+- Click on Projects -> Worksheets
+- At the top rigth, click on + to add a new worksheet
+- Copy/paste the code from [1_setup_git_repol.sql](https://github.com/ccarrero-sf/ask_questions_to_your_own_documents_with_snowflake_cortex_search_and_trulens/blob/main/1_setup_git_repo.sql)
 
-    That code will:
-        - Create a new database
-        - Create an API inegration
-        - Create a GIT reposotiry with this one
-        - Will fetch the data
+That code will:
+- Create a new database
+- Create an API inegration
+- Create a GIT reposotiry with this one
+- Will fetch the data
 
 After running that setup, you should be able to see the git repo. Open the details in a new tab:
 
