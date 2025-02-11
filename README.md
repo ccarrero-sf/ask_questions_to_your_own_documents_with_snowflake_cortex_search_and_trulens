@@ -4,7 +4,7 @@ This repository is an evolution of the quickstart [Build a Retrieval Augmented G
 
 This new version includes:
 - Git integration: With this all the setup can be done with a single click
-- ML Observability: Embeed the code in an App class where Observability is added so we can see how the RAG App is performing
+- AI Observability: Embeed the code in an App class where Observability is added so we can see how the RAG App is performing
 
 ### Setup
 
