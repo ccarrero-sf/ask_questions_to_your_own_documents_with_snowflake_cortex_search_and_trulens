@@ -9,6 +9,7 @@ This new version includes:
 ### Setup
 
 #### 1. Setup Git Repo:
+
     - Click on Projects -> Worksheets
     - At the top rigth, click on + to add a new worksheet
     - Copy/paste the code from [1_setup_git_repol.sql](https://github.com/ccarrero-sf/ask_questions_to_your_own_documents_with_snowflake_cortex_search_and_trulens/blob/main/1_setup_git_repo.sql)
