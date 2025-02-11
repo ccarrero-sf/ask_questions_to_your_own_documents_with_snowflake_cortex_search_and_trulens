@@ -4,11 +4,13 @@ This repository is an evolution of the quickstart [Build a Retrieval Augmented G
 
 This new version includes:
 - Git integration: With this all the setup can be done with a single click
-- ML Observability: Embeed the code in an App class where Observabilit is added so we can see how the RAG App is performing
+- ML Observability: Embeed the code in an App class where Observability is added so we can see how the RAG App is performing
 
 ### Setup
 
 #### 1. Setup Git Repo:
+
+Follow these steps: 
 
     - Click on Projects -> Worksheets
     - At the top rigth, click on + to add a new worksheet
@@ -20,16 +22,16 @@ This new version includes:
         - Create a GIT reposotiry with this one
         - Will fetch the data
 
-After running that setup, you should be able to see the git repo. Open it:
+After running that setup, you should be able to see the git repo. Open the details in a new tab:
 
 ![image](img/1_git_repo.png)
 
 
 #### 2. Complete Setup
 
-The difference with the first guide, is that using Git integration, we are setting up all the setups, including the Streamlit App. 
+The difference with the first guide, is that using Git integration, we are configuring everything we need, including the Streamlit App. 
 
-Under GIT_REPO_CHATBOT, select <b>2_install_demo.sql</b> and either "Copy into worksheet" or "Execute immediage". 
+Under GIT_REPO_CHATBOT, select <b>2_install_demo.sql</b> and either "Copy into worksheet" or "Execute immediate". 
 
 ![image](img/2_git_repo_exec.png)
 
